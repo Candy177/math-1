@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+  int x, y, nx, ny;
+  cout << "Enter X:\n ";
+  cin >> x;
+  cout << "Enter Y:\n ";
+  cin >> y;
+  cout << "Shift X by:\n ";
+  cin >> nx;
+  cout << "Shift Y by:\n ";
+  cin >> ny;
+  int totalX = x+nx;
+  int totalY = y+ny;
+  cout << "X= "<< totalX << "\n";
+  cout << "Y= "<< totalY << "\n";
+  cout << "The centre of the shape is ( " << totalX << " , " << totalY << " )\n";
+  return 0;
+}
